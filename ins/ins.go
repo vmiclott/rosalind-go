@@ -6,11 +6,12 @@ func main() {
 	/*TODO: Hard-coded input needs to go*/
 	n := 6
 	a := []int{6, 10, 4, 5, 1, 2}
-	fmt.Println(countSwaps(n, a))
+	fmt.Println(ins(n, a))
 	fmt.Println(a)
 }
 
-func countSwaps(n int, a []int) int {
+//Insertion-sort a (length n)
+func ins(n int, a []int) int {
 	count := 0
 	for i := 1; i < n; i++ {
 		k := i
