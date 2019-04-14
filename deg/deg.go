@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	/*TODO: Hard-coded input needs to go*/
-	const n int = 6
-	const m int = 7
+	n := 6
+	m := 7
 	//edgeList contains edges only once, we assume the given graph is an undirected graph
 	edgeList := [][]int{
 		{1, 2},
